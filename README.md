@@ -85,6 +85,8 @@ old Ruby.
  - [@sg650](https://github.com/sg650)
 
 ## Releases
+- 3.1.2
+  - Allow ruby 4.0+
 - 3.1.1
   - Use modern autocorrect flag for rubocop >= 1.30 (sg650)
 - 3.1.0
