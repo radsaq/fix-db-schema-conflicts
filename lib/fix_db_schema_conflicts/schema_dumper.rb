@@ -18,6 +18,10 @@ module FixDBSchemaConflicts
       def foreign_keys(table)
         __getobj__.indexes(table).sort_by(&:name)
       end
+
+      def quoted_scope(*args)
+        __getobj__.send(:quoted_scope, *args)
+      end
     end
 
     def extensions(*args)
