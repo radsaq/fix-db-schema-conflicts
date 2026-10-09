@@ -18,8 +18,6 @@ namespace :db do
       else
         'auto-correct'
       end
-
-      `bundle exec rubocop --#{auto_correct_arg} --config #{rubocop_yml} #{filename.shellescape}`
     end
   end
 end
